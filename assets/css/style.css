@@ -40,7 +40,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-top {
-  background: #115c9b;
+  background: #1f76bd;
   font-size: 12px;
   padding: 3px 0;
 }
@@ -56,19 +56,23 @@ a:hover, a:focus, a:active {
 
 .navbar-main {
   margin-bottom: 0;
-  color: #fff;
-  background: #1f76bd;
+  color: #115c9b;
+  background: #fff;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
 }
-.navbar-main a:hover,
+
 .navbar-main a:active,
+.navbar-main a.is-active,
 .navbar-main a:focus,
+.navbar-main a:hover: {
+  color: #115c9b;
+}
+
+.navbar-main a:active,
 .navbar-main a.is-active {
-  background: none !important;
-  color: inherit;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #115c9b;
 }
 .navbar-main .submenu {
   position: absolute;
@@ -83,6 +87,7 @@ a:hover, a:focus, a:active {
   -o-transition: all, 0.05s;
   -webkit-transition: all, 0.05s;
   transition: all, 0.05s;
+  color: #fff;
 }
 .navbar-main .submenu li {
   border-top: 1px solid #185b91;
@@ -172,6 +177,23 @@ a:hover, a:focus, a:active {
 .about-us {
   margin: 30px 0;
 }
+
+.our-causes {
+  margin: auto;
+  max-width: 50rem;
+}
+
+ol li {
+  padding: 0.5rem;
+}
+
+.sponsor-item {
+  display: inline-block;
+}
+.sponsor-item img {
+  height: 10rem;
+}
+
 
 .about-us-col {
   height: 325px;
