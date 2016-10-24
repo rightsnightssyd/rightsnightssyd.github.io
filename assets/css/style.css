@@ -178,6 +178,15 @@ a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
+.carousel-caption {
+  height: 100%;
+  padding-top: 40%;
+}
+
+.carousel-title {
+  font-size: 6rem;
+}
+
 .our-causes {
   margin: auto;
   max-width: 50rem;
@@ -194,9 +203,13 @@ ol li {
   height: 10rem;
 }
 
+#shrink-this-logo {
+  max-width: 90px;
+}
+
 
 .about-us-col {
-  height: 325px;
+  height: 380px;
   padding: 25px;
   text-align: center;
   background-color: #0076a3;
@@ -223,6 +236,10 @@ ol li {
 ================================= */
 .home-reasons {
   margin: 25px 0;
+}
+
+.sponsor-item {
+  margin-left: 31%
 }
 
 .reasons-col {
