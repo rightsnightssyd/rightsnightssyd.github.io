@@ -178,9 +178,22 @@ a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
+.our-causes {
+  margin: auto;
+  max-width: 50rem;
+}
+
 ol li {
   padding: 0.5rem;
 }
+
+.sponsor-item {
+  display: inline-block;
+}
+.sponsor-item img {
+  height: 10rem;
+}
+
 
 .about-us-col {
   height: 325px;
