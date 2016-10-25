@@ -28,6 +28,11 @@ a:hover, a:focus, a:active {
   color: inherit;
 }
 
+.our-causes a {
+	font-weight: bold;
+  text-decoration: underline;
+}
+
 /* =============================================================================
   Layout
 ========================================================================== */
@@ -239,7 +244,7 @@ ol li {
 }
 
 .sponsor-item {
-  margin-left: 31%
+  margin-left: 29%
 }
 
 .reasons-col {
